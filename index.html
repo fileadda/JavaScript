@@ -10,25 +10,17 @@
 
 </head>
 <body>
+  <p id="demo"></p>
 
-<div class="container">
+    <button type="button" name="button" onclick="getElementById('demo').innerHTML=Date()">Click</button>
 
-     <p id="test"></p>
+    <br><br>
 
-     <button type="button" onclick="getElementById('test').innerHTML=Date()">Click</button>
+    <p id="demo2">This will change</p>
 
-<p id="demo"></p>
-
-<button type="button" onclick="window.alert('Welcome to JavaScript')">PopUp</button>
-
-<br><br>
-
-<p id="demo2"></p>
-<button type="button" onclick="getElementById('demo2').innerHTML='Helo, JavaScript'">Sample</button>
+    <button type="button" name="button" onclick="getElementById('demo2').innerHTML = 'Hello, JavaScript!'">Click me</button>
 
 
-
-</div>
 
 </body>
 </html>
