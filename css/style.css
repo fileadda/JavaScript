@@ -1,0 +1,17 @@
+body{
+  background-color: #c1c1c1;
+  padding: 50px;
+  width: 100%;
+  border: thin solid #ffce00;
+
+}
+
+h1{
+  color:#6a2bb3;
+  font-family: sans-serif;
+  font-size: 36px;
+}
+
+hr{
+  color: #ffce00;
+}
