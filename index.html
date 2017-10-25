@@ -19,8 +19,14 @@
 
 </script>
 
+<script type="text/javascript">
+  function onLoad() {
+    window.alert('Hello, World!');
+  }
+</script>
+
 </head>
-<body>
+<body onload="onLoad()">
 
 
 <!-- coding start here -->
@@ -137,10 +143,44 @@ document.write(8+ 9);
 
 </script>
 
+<br><br>
+<h4><u>Example 2</u></h4>
+<p>Using document.write() after an HTML document is fully loaded, will delete all existing HTML:</p>
+
+<button type="button" name="button" onclick="document.write(2+4)">Try this</button>
+
+<br><br>
+
+<h3>Using window.alert()</h3>
+<h4><u>Example</u></h4>
+
+<script type="text/javascript">
+
+window.alert('Welcome to JavaScript Practice');
+</script>
+
+<br>
+<h4><u>Example 2</u></h4>
+<script type="text/javascript">
+
+window.alert(10+7);
+
+</script>
 
 
 
 
+
+<br><br>
+
+<h3>Using window.alert()</h3>
+<h4><u>Example</u></h4>
+
+<script type="text/javascript">
+
+console.log(8+7);
+
+</script>
 
 </body>
 </html>
