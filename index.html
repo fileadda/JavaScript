@@ -10,6 +10,11 @@
 
 </head>
 <body>
+
+  <h2>JavaScript Tutorials</h2>
+  <hr>
+
+  <br>
   <p id="demo"></p>
 
     <button type="button" name="button" onclick="getElementById('demo').innerHTML=Date()">Click</button>
@@ -20,6 +25,16 @@
 
     <button type="button" name="button" onclick="getElementById('demo2').innerHTML = 'Hello, JavaScript!'">Click me</button>
 
+
+<br><br>
+
+<h3><span style="color:#cc3341;">JavaScript can change HTML attributes.</span></h3>
+
+<button onclick="document.getElementById('myImage').src='assets/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="assets/pic_bulboff.gif" style="width:100px;">
+
+<button onclick="document.getElementById('myImage').src='assets/pic_bulboff.gif'">Turn off the light</button>
 
 
 </body>
