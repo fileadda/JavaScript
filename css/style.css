@@ -15,3 +15,16 @@ h1{
 hr{
   color: #ffce00;
 }
+
+.data{
+ color:#007bb9;
+
+}
+
+
+.example{
+  font-family:sans-serif;
+  font-size: 14px;
+  color:#8f0091;
+  text-decoration: underline;
+}
