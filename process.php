@@ -1,7 +1,9 @@
 <?php
 $names = array['ganesh','honey'];
 
-var_dump($names);
+foreach ($names as $name) {
+  print "Welcome".$name;
+}
 
 
 ?>
